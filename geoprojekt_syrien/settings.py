@@ -79,18 +79,6 @@ WSGI_APPLICATION = 'geoprojekt_syrien.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.contrib.gis.db.backends.postgis',
-#         'NAME': 'geosyrien',
-#         'USER': 'wsgusers',
-#         'PASSWORD': 'geowsg123',
-#         'HOST': 'localhost',
-#         'PORT': '5432',
-#
-#     }
-# }
-
 # database settings vom neu erstellten dump
 DATABASES = {
     'default': {
